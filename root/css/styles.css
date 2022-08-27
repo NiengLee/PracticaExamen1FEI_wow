@@ -1,0 +1,287 @@
+/* Sección body general */
+
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/maxbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: ubuntu;
+    
+    /* width: 800px; */
+}
+
+/* Esta es la sección del header */
+
+header {
+    background-image: url(../img/warcraft-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #131A22;
+    height: 200px;
+    width: 1800px;
+    display:flex;
+    justify-content:center;
+}
+
+.Textobanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    right: 45px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    right: 600px;
+    top: 20px;
+}
+.Textobanner p {
+    color: #F1D56F;
+    background-color: #1D1E22;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px white;
+}
+
+/* Esta es la seccion de la intro */
+
+article {
+    width: 1400px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: #dce0e8;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 20px;
+    margin: 5px;
+}
+
+article h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.intro {
+    font-size: 40px;
+    text-align: center;
+}
+
+.propuesta {
+    font-size: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Esta es la sección de la horda */
+
+.Horde {
+    background-image: url(../img/hordebackgroundleft.jpg);
+    width: 1400px;
+    height: 480px;
+    display: flex;
+    flex-direction: space-between;
+    box-sizing: border-box;
+    padding:20px;
+    margin:8px;
+    position: relative;
+    right: 180px;
+
+}
+
+.Hordeizq {
+    width: 600px;
+    padding: 10px;
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Hordeder {
+    width: 600px;
+    padding: 10px;
+    height: 460px;
+    margin:10px;
+    color: #F1D56F;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.Horde img {
+    width: 500px;
+    height: 300px;
+    border-radius: 150px;
+    border:10px solid rgb(146, 10, 10);
+    position:relative;
+    left: 80px;
+    top: 20px;
+}
+
+.Horde h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.Horde p {
+    text-align: justify;
+}
+
+.Horde li {
+    color: rgb(255, 218, 85); 
+}
+
+.Horde a {
+    color: #F1D56F;
+}
+
+/* Esta es la seccion de la alianza*/
+
+.Alliance {
+    background-image: url(../img/alliancebackgroundright.jpg);
+    width: 1400px;
+    height: 520px;
+    display: flex;
+    flex-direction: space-between;
+    box-sizing: border-box;
+    padding:20px;
+    margin:8px;
+    position: relative;
+    left: 200px;
+}
+
+.Allianceder {
+    width: 600px;
+    padding: 10px;
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Allianceizq {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    margin:10px;
+    color: #F1D56F;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.Alliance img {
+    width: 500px;
+    height: 300px;
+    border-radius: 150px;
+    border:10px solid hwb(231 11% 25%);
+    position:relative;
+    left: 140px;
+    top: 20px;
+}
+
+.Alliance h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.Alliance p {
+    text-align: justify;
+}
+
+.Alliance li {
+    color: #F1D56F; 
+}
+
+.Alliance a {
+    color: #F1D56F
+}
+
+/* esta es la seccion del videito */
+
+.videito {
+    width: 1800px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: #dce0e8;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 20px;
+    margin: 5px;
+}
+
+.videito h2 {
+    font-size: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* seccion del footer */
+footer {
+    background-color: #000101;
+    height: 300px;
+    width: 1800px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 5px;
+}
+
+.futizq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start ;
+    color: #1074B9;
+}
+
+.futizq img {
+    width: 300px;
+    height: 150px;
+    position: relative;
+    left: 70px;
+    top: 15px;
+}
+
+.futizq p {
+    display: block;
+    text-align: center;
+    position: relative;
+    right: 120px;
+}
+
+.futder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start ;
+    
+}
+
+.pregunta {
+    color: #3CE6FD;
+}
+
+.respuesta {
+    color: #E4E7DB;
+}
+

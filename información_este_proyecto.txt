@@ -1,0 +1,1 @@
+Este proyecto se realizo en el curso de frontend I con digital House, se tomo como temática el juego tiempo real online de world of warcraft, solo contiene maquetado HTML y CSS.
